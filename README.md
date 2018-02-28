@@ -1,4 +1,4 @@
-# React hot or cold solution
+# React hot or cold react -> redux practice
 
-[GitHub](https://github.com/Thinkful-Ed/react-hot-cold)
+[Original React App](https://github.com/Thinkful-Ed/react-hot-cold)
 
