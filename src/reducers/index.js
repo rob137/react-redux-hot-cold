@@ -9,7 +9,12 @@ const initialState = {
 
 export const gameReducer = (state=initialState, action) => {
   if (action.type === actions.RESTART_GAME) {
-    return Object.assign({}, state, initialState);
+    return Object.assign({}, state, {
+      guesses: [],
+      feedback: 'Make your guess!',
+      auralStatus: '',
+      correctAnswer: Math.round(Math.random() * 100) + 1
+    });
   } 
   else if (action.type === actions.MAKE_GUESS) {
     const guess = parseInt(action.guess, 10);
