@@ -1,4 +1,6 @@
 import React from 'react';
+import {connect} from 'react-redux';
+import {}
 
 import Header from './header';
 import GuessSection from './guess-section';

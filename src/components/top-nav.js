@@ -2,6 +2,7 @@ import React from 'react';
 
 import './top-nav.css';
 
+// onRestartGame() and onGenerateAuralUpdate()?
 export default function TopNav(props) {
   return (
     <nav>
