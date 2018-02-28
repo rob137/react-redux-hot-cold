@@ -1,4 +1,4 @@
-# React hot or cold react -> redux practice
+# React -> Redux practice
 
-[Original React App](https://github.com/Thinkful-Ed/react-hot-cold)
-
+Using (this)[(https://github.com/Thinkful-Ed/react-hot-cold)
+] original React app as a starting point
